@@ -28,7 +28,15 @@ $(document).ready(function () {
         $(".time-block).each(function () {
             var blockHour = parseInt($(this).attr("id").split("hour")[1]);
             console.log(blockHour, currentHour)
-        }
+        
+            if (blockHour < currentHour) {
+                $(this).addClass("past");
+                $(this).removeClass("present");
+                $(this).removeClass("future");
+            }
+            else if (blockHour === currentHourtr) {
+                $(This).
+            }
     }
 
 
