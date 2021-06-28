@@ -16,11 +16,11 @@ $(document).ready(function () {
     $("#hour10 .entry_data").val(localStorage.getItem("hour10"));
     $("#hour11 .entry_data").val(localStorage.getItem("hour11"));
     $("#hour12 .entry_data").val(localStorage.getItem("hour12"));
-    $("#hour13 .entruy_data").val(localStorage.getItem("hour13"));
+    $("#hour13 .entry_data").val(localStorage.getItem("hour13"));
     $("#hour14 .entry_data").val(localStorage.getItem("hour14"));
-    $("hour15m .entry_data").val(localStorage.getItem("hour15"));
-    $("hour16 .entry_data").val(localStorage.getItem("hour16"));
-    $("hour17 .entry_data").val(localStorage.getItem("hour17"));
+    $("#hour15 .entry_data").val(localStorage.getItem("hour15"));
+    $("#hour16 .entry_data").val(localStorage.getItem("hour16"));
+    $("#hour17 .entry_data").val(localStorage.getItem("hour17"));
 
 
 
