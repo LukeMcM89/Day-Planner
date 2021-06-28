@@ -35,7 +35,9 @@ $(document).ready(function () {
                 $(this).removeClass("future");
             }
             else if (blockHour === currentHourtr) {
-                $(This).
+                $(this).removeClass("past");
+                $(this).removeClass("future");
+                $(this).removeClass("present");
             }
     }
 
