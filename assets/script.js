@@ -11,3 +11,7 @@ $(document).ready(function () {
         localStorage.setItem(time,text);
         
     })
+
+    $("#hour9 .entry_data").val(localStorage.getItem("hour9"));
+    $("#hour10 .entry_data").val(localStorage.getItem("hour10"));
+
