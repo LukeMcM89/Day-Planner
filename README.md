@@ -9,3 +9,5 @@ Thank you for your time!
 Link to deployed website: https://lukemcm89.github.io/Day-Planner/
 
 Github Repository: https://github.com/LukeMcM89?tab=repositories
+
+(planner.png?raw=true “alt text”)
