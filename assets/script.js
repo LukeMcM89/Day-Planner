@@ -1,4 +1,7 @@
+//loads html and css docs
 $(document).ready(function () {
+
+    // uses moment to show time and day
 
     $("#currentDay").text(moment().format("MMMM Do YYYY, h:mm:ss a"));
 
@@ -8,9 +11,12 @@ $(document).ready(function () {
         var text = $(this).siblings(".entry_data").val();
         var time = $(this).parent().attr("id");
 
+        // saves items to local storage
+
         localStorage.setItem(time,text);
         
     })
+// hour blocks to local storage
 
     $("#hour00 .entry_data").val(localStorage.getItem("hour00"));
     $("#hour01 .entry_data").val(localStorage.getItem("hour01"));
@@ -39,6 +45,7 @@ $(document).ready(function () {
             var blockHour = parseInt($(this).attr("id").split("hour")[1]);
             console.log(blockHour, currentHour)
         
+            // determines whether user has passed the time slot
             if(blockHour < currentHour) {
                 $(this).addClass("past");
                 $(this).removeClass("future");
