@@ -1,6 +1,6 @@
 
 # Day-Planner
-An easy to use day planner that provides individualized blocks of time with the ability to insert, save and/or delete notes, memos or tentative plans top help orientate and manage your day. Save functionality is included.
+An easy to use day planner that provides individualized blocks of time with the ability to insert, save and/or delete notes, memos or tentative plans to help orientate and manage your day. Save functionality is included.
 
 Past hour blocks are gray, while the current hour block is green. Red colored time slots are future time blocks. 
 
