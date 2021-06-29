@@ -12,6 +12,7 @@ $(document).ready(function () {
         
     })
 
+    $("#hour8 .entry_data").val(localStorage.getItem("hour8"));
     $("#hour9 .entry_data").val(localStorage.getItem("hour9"));
     $("#hour10 .entry_data").val(localStorage.getItem("hour10"));
     $("#hour11 .entry_data").val(localStorage.getItem("hour11"));
@@ -21,6 +22,7 @@ $(document).ready(function () {
     $("#hour15 .entry_data").val(localStorage.getItem("hour15"));
     $("#hour16 .entry_data").val(localStorage.getItem("hour16"));
     $("#hour17 .entry_data").val(localStorage.getItem("hour17"));
+    $("#hour18 .entry_data").val(localStorage.getItem("hour18"));
 
     function hourTracker () {
         var currentHour = moment().hour();
@@ -29,7 +31,7 @@ $(document).ready(function () {
             var blockHour = parseInt($(this).attr("id").split("hour")[1]);
             console.log(blockHour, currentHour)
         
-            if(blockHour <currentHour) {
+            if(blockHour < currentHour) {
                 $(this).addClass("past");
                 $(this).removeClass("future");
                 $(this).removeClass("present");
